@@ -1,35 +1,42 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+/*import './App.css'
+import Button from './Button'
+import Timer from './Timer'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <Button/>
+      <Timer maxRange ={59}/>
     </>
   )
 }
 
 export default App
+*/
+import React from 'react';
+import CountdownTimer from './CountdownTimer';
+import './App.css';
+
+export default function App() {
+  const THREE_DAYS_IN_MS = 3 * 24 * 60 * 60 * 1000;
+ // const SEVEN_DAYS_IN_MS = 7 * 24 * 60 * 60 * 1000;
+  const NOW_IN_MS = new Date().getTime();
+
+  const dateTimeAfterThreeDays = NOW_IN_MS + THREE_DAYS_IN_MS;
+  //const dateTimeAfterSevenDays = NOW_IN_MS + SEVEN_DAYS_IN_MS;
+
+  return (
+    <div>
+      <h1> The Spotify Pomodoro Productivity Tool </h1>
+
+      <h2>Work Smart, Not Hard!</h2>
+      <CountdownTimer targetDate={dateTimeAfterThreeDays} />
+
+    </div>
+  );
+}
+
+
+
+

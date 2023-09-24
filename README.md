@@ -6,11 +6,11 @@ As **university students in STEM**, it can be hard to find motivation and regula
 ## What it does
 Songodoro combines the Pomodoro technique with the Spotify API to give you a **refreshing focus playlist every single study session.** We're customizing the auto-generated playlist to your taste - analyzing your go-to songs to give you new favorites. 
 
-The platform promotes productivity alongside novelty, intersecting music, and study so that Pomodoro never gets old. 
+The platform **promotes productivity alongside novelty**, intersecting music, and study so that Pomodoro never gets old. 
 
 ## How we built it
 
-We used a combination of HTML, CSS, and JS alongside the React framework to design the front-end and back-end. We also used Figma to create a low-fidelity mock-up -- UI/UX doesn't get left behind!
+We used a combination of *HTML, CSS, and JS* alongside the React framework to design the front-end and back-end. We also used *Figma* to create a low-fidelity mock-up -- UI/UX doesn't get left behind!
 
 ## Challenges we ran into
 
@@ -31,4 +31,7 @@ Altogether, we were able to really familiarize ourselves with these languages (H
 We'd love to expand Songodoro in the future by adding more features. These include: 
 - More specific genre selections (Maybe you don't want to study to relaxing music?)
 - Having the timer be more flexible 
-- Cleaning and optimizing the code 
+- Cleaning and optimizing the code
+
+Love, 
+The Songodoro Team (Ann, Seaya, Shreya, Sophia)

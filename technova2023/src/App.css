@@ -17,7 +17,7 @@
 
 .App-header {
   background-color: black;
-  min-height: 100vh;
+  min-height: 50VH;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -29,8 +29,8 @@
 body {
   background-color: rgb(42, 41, 41);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  border: 30px;
-  padding-top: 15%;
+  border: 5%;
+  padding-top: 6%;
   padding-left: 15%;
   padding-right: 15%;
   font-size: 1;
@@ -45,7 +45,7 @@ body {
 }
 
 .button {
-  background-color:lightgreen;
+  background-color:#90ee90;
   margin-top:0.2em;
   margin-left:0.2em;
   margin-right: 0.2em;

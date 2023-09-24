@@ -4,9 +4,9 @@
 As **university students in STEM**, it can be hard to find motivation and regulate your studying - especially after you just came back from a co-op or a relaxing summer. So, Songodoro was born. This project aims to give students that boost of motivation by introducing intervals of studying alongside customized (and novel!) study music. 
 
 ## What it does
-Songodoro combines the Pomodoro technique with the Spotify API to give you a **refreshing focus playlist every single study session.** We're customizing the auto-generated playlist to your taste - analyzing your go-to songs to give you new favourites. 
+Songodoro combines the Pomodoro technique with the Spotify API to give you a **refreshing focus playlist every single study session.** We're customizing the auto-generated playlist to your taste - analyzing your go-to songs to give you new favorites. 
 
-The platform promotes productivity alongside novelty, intersecting music and study so that Pomodoro never gets old. 
+The platform promotes productivity alongside novelty, intersecting music, and study so that Pomodoro never gets old. 
 
 ## How we built it
 
@@ -17,11 +17,11 @@ We used a combination of HTML, CSS, and JS alongside the React framework to desi
 As novice coders, we learned a lot of new skills *while* coding this project. In the beginning, 3/4 of us didn't even have React installed on VSCode, but now we're intimately familiar with the nooks and crannies of the library. 
 
 For the front-end, we struggled to build a specific timer with the specific Pomodoro criteria. 
-For the back-end, it was difficult wrestling with the Spotify API -- neither of us worked with APIs before, and MAN! I sure know what 400 and 502 error codes means now!  
+For the back-end, it was difficult wrestling with the Spotify API -- neither of us worked with APIs before, and MAN! I sure know what 400 and 502 error codes mean now!  
 
 ## Accomplishments that we're proud of
 
-We're really glad that we were able to preserve through the obstacles and keep pushing despite the tedious bugs that we encountered. We're also really glad that we chose something feasible in the end, as we started off with super technologically intensive ideas.... but they were completely out of our skill range. This project was great for challenging us, without completely destroying our morale (for now.)
+We're really glad that we were able to persevere through the obstacles and keep pushing despite the tedious bugs that we encountered. We're also really glad that we chose something feasible in the end, as we started off with super technologically intensive ideas.... but they were completely out of our skill range. This project was great for challenging us, without completely destroying our morale (for now.)
 
 ## What we learned
 

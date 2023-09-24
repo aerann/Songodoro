@@ -114,13 +114,15 @@ function App() {
     <>
       <div className='App'>
         <Pomodoro/>
+        <div>
+          {!isLoggedIn && <button className="spotify" onClick={handleLogin}>ᯤ</button>}
+        </div>
+        <div>
+          <button className="generate" onClick={callapi}>Generate me my Songodoro!</button>
+        </div>  
+        {playlistID && 
+          <iframe src={`https://open.spotify.com/embed/playlist/${playlistID}?utm_source=generator`} width="100%" height="352" frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>}
       </div>
-      {!isLoggedIn && <button onClick={handleLogin}>Login to Spotify</button>}
-      <button onClick={callapi}>Generate me my Songodoro!</button>
-
-      
-      {playlistID && 
-        <iframe src={`https://open.spotify.com/embed/playlist/${playlistID}?utm_source=generator`} width="100%" height="352" frameBorder="0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>}
     </>
   )
 }

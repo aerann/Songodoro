@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react"
-import SpotifyButton from "./SpotifyButton"
 
 export default function Pomodoro() {
 
@@ -56,9 +55,6 @@ export default function Pomodoro() {
             <button className="button" onClick={() => setTimerOn(true)}>Start</button>
             <button className="button" onClick={() => setTimerOn(false)}>Stop</button>
             <button className="button" onClick={Reset}>Reset</button>
-        </div>
-        <div>
-            <button className="spotify" onClick={SpotifyButton}>ᯤ</button>
         </div>
     </div>
 }

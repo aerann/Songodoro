@@ -1,9 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
 
-.App {
-  text-align: center;
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -81,6 +77,7 @@ button:hover {
 
 
 .App {
+  text-align: center;
   justify-content: center;
 }
 
@@ -89,4 +86,5 @@ button:hover {
   min-height: 1.3em;
   margin-bottom: 0.5em;
 }
+
 

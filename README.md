@@ -1,4 +1,4 @@
-# Technova2023
+# Soundtrack your Success - Songadoro
 
 ## Inspiration
 As **university students in STEM**, it can be hard to find motivation and regulate your studying - especially after you just came back from a co-op or a relaxing summer. So, Songodoro was born. This project aims to give students that boost of motivation by introducing intervals of studying alongside customized (and novel!) study music. 

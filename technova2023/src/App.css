@@ -1,46 +1,90 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
   }
 }
 
-.card {
-  padding: 2em;
+.App-header {
+  background-color: black;
+  min-height: 50VH;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
 
-.read-the-docs {
-  color: #888;
+body {
+  background-color: rgb(42, 41, 41);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 5%;
+  padding-top: 6%;
+  padding-left: 15%;
+  padding-right: 15%;
+  font-size: 1;
 }
 
-.embed{
-  visibility: hidden
+.countdown {
+  color: white;
+  font-weight: 550;
+  margin: 10px;
+  font-size: 12em;
+  justify-content: center;
 }
+
+.button {
+  background-color:#90ee90;
+  margin-top:0.2em;
+  margin-left:0.2em;
+  margin-right: 0.2em;
+  padding-top:.3em;
+  padding-bottom:.4em;
+  padding-left:.75em;
+  padding-right:.75em;
+  border-radius: 20px;
+  font-size: 2.5em;
+  font-weight: 500;
+  font-family: inherit;
+  justify-content: center;
+}
+
+.spotify {
+  background-color:#1DB954;
+  font-size: 2.5em;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 35px;
+  padding-right: 35px;
+  justify-content: center;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  margin: 1em;
+  border-radius: 50%;
+}
+
+button:hover {
+  background-color: #1DB954;
+  box-shadow: 0 12px 20px 0 rgba(0,0,0,0.3),0 17px 50px 0 rgba(0,0,0,0.3);
+}
+
+
+.App {
+  text-align: center;
+  justify-content: center;
+}
+
+.message {
+  font-size: 0.5em;
+  min-height: 1.3em;
+  margin-bottom: 0.5em;
+}
+
+

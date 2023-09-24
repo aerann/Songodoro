@@ -1,9 +1,11 @@
 import { useEffect, useState } from 'react'
 import axios from 'axios'
 import './App.css'
+import Pomodoro from './components/Pomodoro'
 
 
 function App() {
+
   const client_id = "bed79c7d486340ef8ed0ce8e76fece28"
   // const client_key = process.env.REACT_APP_CLIENT_KEY
   const redirect_uri = "http://localhost:5173/"
@@ -110,6 +112,9 @@ function App() {
 
   return (
     <>
+      <div className='App'>
+        <Pomodoro/>
+      </div>
       {!isLoggedIn && <button onClick={handleLogin}>Login to Spotify</button>}
       <button onClick={callapi}>Generate me my Songodoro!</button>
 
